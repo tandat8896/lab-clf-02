@@ -1,0 +1,23 @@
+# ==========================================================
+# TERRAFORM GLOBAL IGNORE (AWS_Lab)
+# ==========================================================
+
+**/.terraform/
+**/.terraform.lock.hcl
+
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfstate.lock.info
+
+**/*.tfvars
+**/*.tfvars.json
+**/terraform.tfvars
+
+**/*.pem
+**/*.pub
+
+.DS_Store
+Thumbs.db
+**/.idea/
+**/.vscode/
+**/*.swp
